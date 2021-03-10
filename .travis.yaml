@@ -1,0 +1,7 @@
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: cec62e5f8300a366856c347ffaf5568327f56843  # Set in the settings page of your repository, as a secure variable
+  keep_history: true
+  on:
+    branch: main
